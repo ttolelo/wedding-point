@@ -477,7 +477,7 @@
     display:flex;
     background:#fff;
     border-top:1px solid var(--line);
-    padding:8px 6px calc(env(safe-area-inset-bottom) + 8px);
+    padding:8px 6px;
   }
   .nav-btn{
     flex:1;
@@ -497,6 +497,15 @@
   .nav-btn .ic{ display:flex; align-items:center; justify-content:center; }
   .nav-btn .ic svg{ width:20px; height:20px; }
   .nav-btn.active{ color:var(--rose-deep); background:#FCEFEF; }
+  .app-credit{
+    flex:none;
+    text-align:center;
+    font-size:10px;
+    color:var(--plum-soft);
+    opacity:.6;
+    padding:6px 0 calc(env(safe-area-inset-bottom) + 6px);
+    background:#fff;
+  }
 
   /* ---- Wide screens: use the extra width instead of staying phone-shaped ---- */
   @media (min-width:760px){
@@ -533,7 +542,7 @@
 
 <div class="app">
   <div class="app-header">
-    <div class="app-version">Ver. 3.13</div>
+    <div class="app-version">Ver. 3.14</div>
     <div class="app-eyebrow">Yozeum Wedding Point Tracker</div>
     <div class="app-title">요즘웨딩 포인트 캘린더</div>
     <div class="app-sub" id="wpc-header-range">기간을 설정해주세요</div>
@@ -620,6 +629,7 @@
       <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9h14M5 15h14M10 4l-3 16M17 4l-3 16"/></svg></span>해시태그
     </button>
   </div>
+  <div class="app-credit">Made by. 망곰베어스</div>
 </div>
 
 <script type="module">
