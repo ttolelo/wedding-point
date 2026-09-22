@@ -17,10 +17,10 @@
     --ivory:#FAF5EF;
     --plum:#3E2A34;
     --plum-soft:#6B5560;
-    --rose:#C98A93;
-    --rose-deep:#B06B76;
-    --gold:#B8945A;
-    --sage:#8FA381;
+    --rose:#e6c5cf;
+    --rose-deep:#af9dc0;
+    --gold:#bdd8dd;
+    --sage:#bdd8dd;
     --line:#E7DCD0;
     --card:#ffffff;
     --header-h:64px;
@@ -62,28 +62,28 @@
     position:absolute;
     top:calc(env(safe-area-inset-top) + 8px);
     right:10px;
-    font-size:9.5px;
+    font-size:11.5px;
     color:#8a7480;
   }
   .app-eyebrow{
     letter-spacing:.28em;
-    font-size:10px;
+    font-size:12px;
     color:var(--rose);
     text-transform:uppercase;
     margin-bottom:4px;
   }
   .app-title{
     font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-    font-size:19px;
+    font-size:21px;
     font-weight:800;
     margin:0 0 2px;
   }
   .app-sub{
-    font-size:11.5px;
+    font-size:13.5px;
     color:#D8C8CC;
   }
   .app-userid{
-    font-size:15px;
+    font-size:17px;
     font-weight:700;
     color:#E8D8DC;
     margin-top:8px;
@@ -93,7 +93,7 @@
     border:none;
     color:var(--rose);
     text-decoration:underline;
-    font-size:15px;
+    font-size:17px;
     font-weight:700;
     cursor:pointer;
     padding:0;
@@ -102,7 +102,7 @@
   }
   .app-userid-note{
     display:block;
-    font-size:10.5px;
+    font-size:12.5px;
     font-weight:400;
     color:#B69AA1;
     margin-top:4px;
@@ -121,18 +121,18 @@
 
   .page-title{
     font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-    font-size:18px;
+    font-size:20px;
     font-weight:700;
     margin:2px 0 4px;
   }
   .page-desc{
-    font-size:12px;
+    font-size:14px;
     color:var(--plum-soft);
     margin-bottom:16px;
   }
   .wpc-tally{
     display:inline-block;
-    font-size:12px;
+    font-size:14px;
     color:var(--rose-deep);
     background:#F6E9EA;
     padding:4px 10px;
@@ -158,7 +158,7 @@
     align-items:flex-start;
   }
   .wpc-total-card:active{ transform:scale(.99); }
-  .wpc-total-card.done{ background:#F5F8F3; border-color:var(--sage); }
+  .wpc-total-card.done{ background:#EEF6F7; border-color:var(--sage); }
   .wpc-check{
     width:20px;height:20px;
     border-radius:6px;
@@ -166,19 +166,19 @@
     flex:none;
     margin-top:1px;
     display:flex;align-items:center;justify-content:center;
-    font-size:13px;
+    font-size:15px;
     color:#fff;
   }
   .wpc-total-card.done .wpc-check{ background:var(--sage); border-color:var(--sage); }
-  .wpc-item-name{ font-size:13.5px; font-weight:600; }
-  .wpc-item-meta{ font-size:11.5px; color:var(--plum-soft); margin-top:2px; }
-  .wpc-item-points{ font-size:11px; color:var(--gold); margin-top:3px; font-weight:600; }
+  .wpc-item-name{ font-size:15.5px; font-weight:600; }
+  .wpc-item-meta{ font-size:13.5px; color:var(--plum-soft); margin-top:2px; }
+  .wpc-item-points{ font-size:13px; color:var(--gold); margin-top:3px; font-weight:600; }
   .wpc-item-remove{
     flex:none;
     background:none;
     border:none;
     color:var(--plum-soft);
-    font-size:11.5px;
+    font-size:13.5px;
     text-decoration:underline;
     cursor:pointer;
     padding:2px 0 0;
@@ -193,13 +193,13 @@
     padding:14px;
     margin-top:14px;
   }
-  .wpc-custom-add-title{ font-size:13px; font-weight:700; margin-bottom:4px; }
-  .wpc-custom-add-desc{ font-size:11.5px; color:var(--plum-soft); margin-bottom:12px; line-height:1.5; }
+  .wpc-custom-add-title{ font-size:15px; font-weight:700; margin-bottom:4px; }
+  .wpc-custom-add-desc{ font-size:13.5px; color:var(--plum-soft); margin-bottom:12px; line-height:1.5; }
   .wpc-custom-add-row{ display:flex; flex-direction:column; gap:8px; margin-bottom:10px; }
   .wpc-custom-add input[type="text"],
   .wpc-custom-add input[type="number"]{
     font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-    font-size:13px;
+    font-size:15px;
     padding:10px 12px;
     border-radius:9px;
     border:1px solid var(--line);
@@ -211,7 +211,7 @@
     display:flex;
     align-items:center;
     gap:6px;
-    font-size:12px;
+    font-size:14px;
     color:var(--plum-soft);
     margin-bottom:12px;
   }
@@ -235,7 +235,7 @@
     border-radius:20px;
     border:1px solid var(--line);
     background:var(--card);
-    font-size:12.5px;
+    font-size:14.5px;
     font-weight:600;
     cursor:pointer;
     color:var(--plum-soft);
@@ -261,10 +261,10 @@
   }
   .wpc-month-panel-title{
     font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-    font-size:17px;
+    font-size:19px;
     font-weight:700;
   }
-  .wpc-month-earned{ font-size:12px; color:var(--gold); font-weight:600; }
+  .wpc-month-earned{ font-size:14px; color:var(--gold); font-weight:600; }
   .wpc-monthly-row{
     display:flex;
     flex-direction:column;
@@ -273,8 +273,8 @@
     border-top:1px solid var(--line);
   }
   .wpc-monthly-row:first-of-type{ border-top:none; padding-top:0; }
-  .wpc-monthly-name{ font-size:13.5px; font-weight:600; }
-  .wpc-monthly-meta{ font-size:11.5px; color:var(--plum-soft); margin-top:2px; }
+  .wpc-monthly-name{ font-size:15.5px; font-weight:600; }
+  .wpc-monthly-meta{ font-size:13.5px; color:var(--plum-soft); margin-top:2px; }
   .wpc-stepper{ display:flex; align-items:center; gap:10px; align-self:flex-start; }
   .wpc-stepper button{
     width:30px;height:30px;
@@ -282,12 +282,12 @@
     border:1px solid var(--rose);
     background:#fff;
     color:var(--rose-deep);
-    font-size:16px;
+    font-size:18px;
     line-height:1;
     cursor:pointer;
   }
   .wpc-stepper button:disabled{ opacity:.35; cursor:not-allowed; }
-  .wpc-stepper .count{ min-width:48px; text-align:center; font-size:13px; font-weight:700; }
+  .wpc-stepper .count{ min-width:48px; text-align:center; font-size:15px; font-weight:700; }
 
   /* ---- Hashtags ---- */
   .wpc-hashtag-card{
@@ -305,10 +305,10 @@
     gap:8px;
     margin-bottom:8px;
   }
-  .wpc-hashtag-label{ font-size:12.5px; font-weight:700; }
+  .wpc-hashtag-label{ font-size:14.5px; font-weight:700; }
   .wpc-hashtag-copy{
     flex:none;
-    font-size:11.5px;
+    font-size:13.5px;
     font-weight:600;
     padding:6px 13px;
     border-radius:16px;
@@ -319,12 +319,12 @@
   }
   .wpc-hashtag-copy.copied{ background:var(--sage); border-color:var(--sage); color:#fff; }
   .wpc-hashtag-text{
-    font-size:12.5px;
+    font-size:14.5px;
     color:var(--plum-soft);
     word-break:break-all;
   }
 
-  .wpc-loading{ text-align:center; color:var(--plum-soft); font-size:13px; padding:30px; }
+  .wpc-loading{ text-align:center; color:var(--plum-soft); font-size:15px; padding:30px; }
 
   /* ---- Range setup ---- */
   .wpc-setup-card{
@@ -334,12 +334,12 @@
     padding:20px 18px;
   }
   .wpc-setup-title{
-    font-size:15px;
+    font-size:17px;
     font-weight:700;
     margin-bottom:6px;
   }
   .wpc-setup-desc{
-    font-size:12px;
+    font-size:14px;
     color:var(--plum-soft);
     margin-bottom:16px;
   }
@@ -353,13 +353,13 @@
     display:flex;
     flex-direction:column;
     gap:6px;
-    font-size:12px;
+    font-size:14px;
     font-weight:600;
     color:var(--plum-soft);
   }
   .wpc-setup-row input[type="month"]{
     font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-    font-size:14px;
+    font-size:16px;
     padding:10px 12px;
     border-radius:9px;
     border:1px solid var(--line);
@@ -374,12 +374,12 @@
     background:var(--rose-deep);
     color:#fff;
     font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-    font-size:14px;
+    font-size:16px;
     font-weight:700;
     cursor:pointer;
   }
   .wpc-setup-note{
-    font-size:11.5px;
+    font-size:13.5px;
     color:var(--gold);
     margin-top:12px;
     line-height:1.5;
@@ -396,7 +396,7 @@
   .wpc-range-edit button{
     background:none;
     border:none;
-    font-size:11.5px;
+    font-size:13.5px;
     color:var(--plum-soft);
     text-decoration:underline;
     cursor:pointer;
@@ -461,13 +461,13 @@
     padding:12px 18px;
   }
   .wpc-summary-label{
-    font-size:11px;
+    font-size:13px;
     letter-spacing:.12em;
     color:#D8C8CC;
   }
   .wpc-summary-value{
     font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-    font-size:17px;
+    font-size:19px;
     font-weight:800;
     color:var(--rose);
   }
@@ -489,7 +489,7 @@
     border:none;
     padding:6px 2px;
     color:var(--plum-soft);
-    font-size:11px;
+    font-size:13px;
     font-weight:600;
     cursor:pointer;
     border-radius:10px;
@@ -507,7 +507,7 @@
   .app-credit{
     flex:none;
     text-align:center;
-    font-size:10px;
+    font-size:12px;
     color:var(--plum-soft);
     opacity:.6;
     padding:6px 0 calc(env(safe-area-inset-bottom) + 6px);
@@ -550,7 +550,7 @@
 
 <div class="app">
   <div class="app-header">
-    <div class="app-version">Ver. 3.15</div>
+    <div class="app-version">Ver. 3.16</div>
     <div class="app-eyebrow">Yozeum Wedding Point Tracker</div>
     <div class="app-title">요즘웨딩 포인트 캘린더</div>
     <div class="app-sub" id="wpc-header-range">기간을 설정해주세요</div>
