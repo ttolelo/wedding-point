@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#3E2A34">
+<meta name="theme-color" content="#e6c5cf">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -30,7 +30,7 @@
   html,body{
     margin:0;
     height:100%;
-    background:var(--plum);
+    background:var(--rose);
     overscroll-behavior-y:none;
   }
   body{
@@ -53,8 +53,8 @@
   .app-header{
     flex:none;
     position:relative;
-    background:var(--plum);
-    color:#fff;
+    background:var(--rose);
+    color:var(--plum);
     padding:calc(env(safe-area-inset-top) + 14px) 20px 14px;
     text-align:center;
   }
@@ -63,12 +63,12 @@
     top:calc(env(safe-area-inset-top) + 8px);
     right:10px;
     font-size:11.5px;
-    color:#8a7480;
+    color:var(--plum-soft);
   }
   .app-eyebrow{
     letter-spacing:.28em;
     font-size:12px;
-    color:var(--rose);
+    color:var(--rose-deep);
     text-transform:uppercase;
     margin-bottom:4px;
   }
@@ -80,18 +80,18 @@
   }
   .app-sub{
     font-size:13.5px;
-    color:#D8C8CC;
+    color:var(--plum-soft);
   }
   .app-userid{
     font-size:17px;
     font-weight:700;
-    color:#E8D8DC;
+    color:var(--plum);
     margin-top:8px;
   }
   .app-userid button{
     background:none;
     border:none;
-    color:var(--rose);
+    color:var(--rose-deep);
     text-decoration:underline;
     font-size:17px;
     font-weight:700;
@@ -104,7 +104,7 @@
     display:block;
     font-size:12.5px;
     font-weight:400;
-    color:#B69AA1;
+    color:var(--plum-soft);
     margin-top:4px;
   }
 
@@ -406,7 +406,7 @@
   .wpc-login{
     position:fixed;
     inset:0;
-    background:var(--plum);
+    background:var(--rose);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -456,20 +456,20 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:var(--plum);
-    color:#fff;
+    background:var(--rose);
+    color:var(--plum);
     padding:12px 18px;
   }
   .wpc-summary-label{
     font-size:13px;
     letter-spacing:.12em;
-    color:#D8C8CC;
+    color:var(--plum-soft);
   }
   .wpc-summary-value{
     font-family:"NanumSquare","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
     font-size:19px;
     font-weight:800;
-    color:var(--rose);
+    color:var(--rose-deep);
   }
 
   .app-nav{
@@ -550,7 +550,7 @@
 
 <div class="app">
   <div class="app-header">
-    <div class="app-version">Ver. 3.17</div>
+    <div class="app-version">Ver. 3.18</div>
     <div class="app-eyebrow">Yozeum Wedding Point Tracker</div>
     <div class="app-title">요즘웨딩 포인트 캘린더</div>
     <div class="app-sub" id="wpc-header-range">기간을 설정해주세요</div>
